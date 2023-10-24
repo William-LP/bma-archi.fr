@@ -1,223 +1,43 @@
-<!DOCTYPE html>
-<html lang="xyz">
-
-<!-- Mirrored from duruthemes.com/demo/html/archsan/light2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Sep 2023 12:43:03 GMT -->
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>MABA Studio </title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,300;1,400&amp;family=Oswald:wght@300;400&amp;display=swap">
-    <link rel=stylesheet href="css/bootstrap.min.css">
-    <link rel=stylesheet href="css/animate.css">
-    <link rel=stylesheet href="css/themify-icons.css">
-    <link rel=stylesheet href="css/owl.carousel.min.css">
-    <link rel=stylesheet href="css/owl.theme.default.min.css">
-    <link rel=stylesheet href="modules/magnific-popup/magnific-popup.css">
-    <link rel=stylesheet href="modules/YouTubePopUp/YouTubePopUp.css">
-    <link rel=stylesheet href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+        html {
+            background: url("https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80&w=1780&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+            font-size: x-large;
+        }
+
+        main {
+            text-align: center;
+            color: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            width: 50%;
+            margin: 10% auto 0 auto;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .contact {
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div class="content-wrapper">
-        <!-- Preloader -->
-        <div class="preloader-bg"></div>
-        <div id="preloader">
-            <div id="preloader-status">
-                <div class="preloader-position loader"> <span></span> </div>
-            </div>
-        </div>
-        <!-- Progress scroll totop -->
-        <div class="progress-wrap cursor-pointer">
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
-        <!-- Lines -->
-        <div class="content-lines-wrapper">
-            <div class="content-lines-inner">
-                <div class="content-lines"></div>
-            </div>
-        </div>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <!-- Logo -->
-                <div class="logo-wrapper">
-                    <a class="logo" href="index.html"> <img src="images/logo.png" class="logo-img" alt=""> </a>
-                    <!-- <a class="logo" href="index.html"> <h2>ArchSan <span>Architecture</span></h2> </a> -->
-                </div>
-                <!-- Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
-                        class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
-                <!-- Menu -->
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="./">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="realisations">Réalisations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Slider -->
-        <header id="slider-area" class="header slider-fade">
-            <div class="owl-carousel owl-theme">
-                <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-                <div class="text-left item bg-img" data-overlay-dark="4" data-background="images/slider/1.jpg">
-                    <div class="v-middle caption">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <!-- <h4>Project P.01</h4> -->
-                                    <!-- <h1>Ultra-Modern House Design</h1> -->
-                                    <h1>Révéler tout le potentiel de vos biens immobiliers !</h1>
-                                    <!-- <p>Architecture viverra tristique justo duis vitae diaminte neque nivamus aestan
-                                        ateuene artine aringianu the miss finibus viverra lacus fermen.</p> <a
-                                        href="project-page.html" class="button-light">View Project</a> -->
-                                    <p>MABA Studio vous aide à vendre plus rapidement vos biens grâce à des visuels
-                                        aidant les futurs acquéreurs à se projeter.</p>
-                                    <a onclick="scrollToView()" class="button-light">Nous découvrir</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-left item bg-img" data-overlay-dark="4" data-background="images/slider/2.jpg">
-                    <div class="v-middle caption">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <!-- <h4>Project P.01</h4> -->
-                                    <!-- <h1>Ultra-Modern House Design</h1> -->
-                                    <h1>Révéler tout le potentiel de vos biens immobiliers !</h1>
-                                    <!-- <p>Architecture viverra tristique justo duis vitae diaminte neque nivamus aestan
-                                        ateuene artine aringianu the miss finibus viverra lacus fermen.</p> <a
-                                        href="project-page.html" class="button-light">View Project</a> -->
-                                    <p>MABA Studio vous aide à vendre plus rapidement vos biens grâce à des visuels
-                                        aidant les futurs acquéreurs à se projeter.</p>
-                                        <a onclick="scrollToView()" class="button-light">Nous découvrir</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="slide-num" id="snh-1"></div>
-            <div class="slider__progress"><span></span></div> -->
-        </header>
-        <!-- About -->
-        <section class="about section-padding" id="nous-decouvrir">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
-                        <div class="sub-title border-bot-light">Qui suis-je ?</div>
-                    </div>
-                    <div class="col-md-8 animate-box" data-animate-effect="fadeInUp">
-                        <div class="section-title"><span>MABA</span> Studio</div>
+    <main>
+        <h1>Site en construction</h1>
+        <p>Notre site est en cours de construction. <br />Contactez nous pour obtenir des informations</p>
+        <p class="contact">contact@bma-archi.fr</p>
+    </main>
 
-                        <p>
-                            MABA studio est un service de design architectural pour les professionnels de
-                            l'immobilier souhaitant aider les futurs acquéreurs à se projeter dans des
-                            espaces non meublés, à rénover ou encore non construit.
-                        </p>
-                        <p>
-                            Fondée par une professionelle de l'Architecture, MABA studio vise à faciliter la
-                            vente de biens immobiliers par l'expression visuelle de ce que pourraient devenir
-                            les prochains lieux de vies de vos clients.
-                        </p>
-                        <button onclick="location.href = './services/';">Travaillons ensemble</button>
-                        <br><br><br>
-                        <div class="row">
-                            <div class="col col-md-4">
-                                <div class="about-box"> <img src="images/icon-1.png" class="icon" alt="">
-                                    <h5>Modelisation 3D & Images</h5>
-                                </div>
-                            </div>
-                            <div class="col col-md-4">
-                                <div class="about-box"> <img src="images/icon-2.png" class="icon" alt="">
-                                    <h5>Étude de faisabilité</h5>
-                                </div>
-                            </div>
-                            <div class="col col-md-4">
-                                <div class="about-box"> <img src="images/icon-3.png" class="icon" alt="">
-                                    <h5>Autotisation de travaux</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Break before footer -->
-        <section class="lets-talk">
-            <div class="background bg-img bg-fixed section-padding" data-background="images/slider/1.jpg"
-                data-overlay-dark="6">
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 mb-30">
-                            <div class="sub-title border-footer-light">Me contacter</div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="item">
-                                <h3>MABA <span>Studio</span></h3>
-                                <!-- <p>1616 Broadway NY, New York 10001<br>United States of America.</p> -->
-                                <p class="phone">06 31 86 11 44</p>
-                                <p class="mail">info@maba-studio.fr</p><br />
-                                <div class="social mt-2">
-                                    <a href="index.html"><i class="ti-pinterest"></i></a>
-                                    <a href="index.html"><i class="ti-marker-alt"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>© 2023 MABA Studio. Tous droits réservés.</p>
-                        </div>
-                        <div class="col-md-8">
-                            <p class="right"><a href="#">Termes &amp; Conditions</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!-- jQuery -->
-    <script src="js/plugins/jquery-3.6.1.min.js"></script>
-    <script src="js/plugins/bootstrap.min.js"></script>
-    <script src="js/plugins/modernizr-2.6.2.min.js"></script>
-    <script src="js/plugins/jquery.waypoints.min.js"></script>
-    <script src="js/plugins/imagesloaded.pkgd.min.js"></script>
-    <script src="js/plugins/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/plugins/owl.carousel.min.js"></script>
-    <script src="js/plugins/scrollIt.min.js"></script>
-    <script src="modules/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="modules/masonry/masonry.pkgd.min.js"></script>
-    <script src="modules/YouTubePopUp/YouTubePopUp.js"></script>
-    <script src="js/script.js"></script>
-    <script>
-        function scrollToView() {
-            document.getElementById("nous-decouvrir").scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
-        }
-    </script>
 </body>
-
-<!-- Mirrored from duruthemes.com/demo/html/archsan/light2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Sep 2023 12:43:19 GMT -->
 
 </html>
